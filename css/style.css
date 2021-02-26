@@ -1,0 +1,103 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+
+}
+
+body{
+    background-color: hsl(0, 0%, 98%); 
+    width: 100%;  
+    font-size: inherit;
+    color: hsl(234, 12%, 34%);
+    text-align: center; 
+    overflow: hidden;
+}
+
+/*texto no topo da página*/
+.page-top h2{
+    font-weight: 200;
+    font-size: 26px;
+    padding-top: 40px;
+    align-items: center;
+}
+.page-top h1{
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: -15px;
+}
+.page-top p{
+    color: hsl(229, 6%, 66%);
+    font-size: 11px;
+    line-height: 18px;
+}
+
+/*configuração do texto das caixas*/
+.supervisor , .team-builder , .karma , .calculator{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+.text{
+    font-size: 12px;
+    font-weight: 200;
+    text-align: left; 
+}
+
+/*configuração das caixas*/
+.card{
+    width: 100%;
+}
+
+.supervisor , .team-builder , .karma , .calculator {
+    position: absolute;
+    height: 150px;
+    width: 230px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px  hsl(229, 6%, 66%);
+    padding: 15px;
+    margin:0;
+
+}
+
+.supervisor{    
+    top: 320px;
+    left: 225px;    
+    border-top: 3px solid hsl(180, 62%, 55%);  
+}
+
+.team-builder{   
+    top: 220px;
+    left: 510px;
+    border-top: 3px solid hsl(0, 78%, 62%); 
+}
+
+.karma{  
+    top: 425px;
+    left: 510px;
+    border-top: 3px solid hsl(34, 97%, 64%);    
+}
+
+.calculator{    
+    top: 320px;
+    left: 795px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 175px;
+    bottom: -20px;  
+}
+
+
+
+/*footer*/
+.attribution { font-size: 11px; text-align: center; overflow: hidden }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
